@@ -6,13 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:hint="@string/id_primeiro_cachorro"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:id="@+id/et_primeiro_cachorro"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_segundo_cachorro"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/et_primeiro_cachorro"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:id="@+id/et_segundo_cachorro"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comprar_cachorros"
+        app:layout_constraintTop_toBottomOf="@id/et_segundo_cachorro"
+        android:layout_marginTop="20dp"
+        android:onClick="comprar"
+        android:id="@+id/bt_comprar"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bt_comprar"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/husky_feliz"
+        android:id="@+id/iv_husky_feliz"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bt_comprar"
+        app:layout_constraintLeft_toRightOf="@id/iv_husky_feliz"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/pug_feliz"
+        android:id="@+id/iv_pug_feliz"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_husky_feliz"
+        android:layout_marginTop="30dp"
+        android:text="Apenas amigáveis"
+        android:id="@+id/sw_amigaveis"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

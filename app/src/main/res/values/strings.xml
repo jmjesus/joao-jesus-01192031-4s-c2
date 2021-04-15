@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AC2 Cachorros</string>
+    <string name="id_primeiro_cachorro">Id do primeiro cachorro</string>
+    <string name="id_segundo_cachorro">Id do segundo cachorro</string>
+    <string name="comprar_cachorros">Comprar cachorros</string>
+    <string name="nenhum_encontrado">Deu ruim... Nenhum cachorro encontrado com os ids %1$d e %2$d</string>
+    <string name="mensagem_erro">Erro: %1$s</string>
+    <string name="nao_encontrado">Não encontrado</string>
+    <string name="raca_primeiro">Cachorro 1: %1$s</string>
+    <string name="raca_segundo">Cachorro 2: %1$s</string>
+    <string name="preco_total">Preço total de compra: R$%1$d</string>
+
 </resources>

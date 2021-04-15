@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AC2 Cachorros</string>
+    <string name="id_primeiro_cachorro">First dog Id</string>
+    <string name="id_segundo_cachorro">Second dog Id</string>
+    <string name="comprar_cachorros">Buy dogs</string>
+    <string name="nenhum_encontrado">Oops... No dogs found with ids %1$d and %2$d</string>
+    <string name="mensagem_erro">Error: %1$s</string>
+    <string name="nao_encontrado">Not found</string>
+    <string name="raca_primeiro">First dog: %1$s</string>
+    <string name="raca_segundo">Second dog: %1$s</string>
+    <string name="preco_total">Total purchase price: US$%1$d</string>
+</resources>
