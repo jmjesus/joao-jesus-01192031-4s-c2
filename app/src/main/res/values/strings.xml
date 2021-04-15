@@ -9,5 +9,5 @@
     <string name="raca_primeiro">Cachorro 1: %1$s</string>
     <string name="raca_segundo">Cachorro 2: %1$s</string>
     <string name="preco_total">Preço total de compra: R$%1$d</string>
-
+    <string name="apenas_amigaveis">Apenas amigáveis com crianças</string>
 </resources>

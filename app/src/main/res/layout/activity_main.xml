@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/iv_husky_feliz"
         android:layout_marginTop="30dp"
-        android:text="Apenas amigáveis com crianças"
+        android:text="@string/apenas_amigaveis"
         android:id="@+id/sw_amigaveis"
         />
 
